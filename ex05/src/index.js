@@ -1,20 +1,20 @@
 // Only change code below this line
-function compareDifferentValues(m){
+function compareStrictValues(m){
     if (m != 55){
         return "Not Equal";
     }
    return "Equal";
 }
-compareDifferentValues(55);
-compareDifferentValues("55");
-compareDifferentValues("21");
-compareDifferentValues(12);
-compareDifferentValues("Doe");
+compareStrictValues(55);
+compareStrictValues("55");
+compareStrictValues("21");
+compareStrictValues(12);
+compareStrictValues("Doe");
 
-console.log(compareDifferentValues(55));
-console.log(compareDifferentValues("55"));
-console.log(compareDifferentValues("21"));
-console.log(compareDifferentValues(12));
-console.log(compareDifferentValues("Doe"));
+console.log(compareStrictValues(55));
+console.log(compareStrictValues("55"));
+console.log(compareStrictValues("21"));
+console.log(compareStrictValues(12));
+console.log(compareStrictValues("Doe"));
 // Only change code above this line
-module.exports = compareDifferentValues;
+module.exports = compareStrictValues;

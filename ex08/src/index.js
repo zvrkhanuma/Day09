@@ -11,7 +11,7 @@ logicalOrOperator(20);
 logicalOrOperator(23);
 logicalOrOperator(30);
 logicalOrOperator(31);
-logicalOrOperator(100);
+logicalOrOperator(105);
 
 console.log(logicalOrOperator(0));
 console.log(logicalOrOperator(9));
